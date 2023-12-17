@@ -11,6 +11,9 @@ export default function Feedback() {
 
   const params = useSearchParams();
   const productName = params.get("product_name");
+  const productUrl = params.get("product_image_url");
+  const requestId = params.get("request_id");
+  const redirectUri = params.get("redirect_uri");
 
   const handleStarClick = (value) => {
     if (value === rating) {
@@ -34,13 +37,13 @@ export default function Feedback() {
         <div className="mt-10">
           <div className="flex justify-center">
             <img
-              src="https://rukminim2.flixcart.com/image/832/832/kv9urgw0/headphone/z/k/d/airdopes-131-boat-original-imag87pw3zehzswb.jpeg?q=70"
+              src={productUrl}
               alt="purchased-product"
               className="w-52 h-52"
             />
           </div>
           <div className="text-xl text-gray-700 mt-5 font-semibold">
-            Boat wireless earbuds
+            {productName}
           </div>
           <div className="flex mt-12 justify-center">
             {[...Array(5)].map((_, index) => {
@@ -61,7 +64,7 @@ export default function Feedback() {
             })}
           </div>
           <div className="text-lg font-semibold mb-5 mt-2 text-gray-700">
-            Rate the product out of 5 starts
+            Rate the product out of 5 stars
           </div>
           <div className="flex justify-center">
             <textarea
@@ -73,7 +76,7 @@ export default function Feedback() {
           </div>
           <div className="flex justify-center mb-8">
             <Link
-              href={`https://localhost:3000/backend?review=${review}&rating=${rating}`}
+              href={`${redirectUri}?review=${review}&rating=${rating}&reviewId=${requestId}`}
               className="text-lg cursor-pointer mt-10 bg-yellow-500 flex items-center justify-center text-black font-semibold w-40 h-10 rounded-full"
             >
               Submit
