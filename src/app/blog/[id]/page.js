@@ -10,12 +10,12 @@ export default function Blog({ params }) {
 
   return (
     <div>
-      <div className="w-[60%] mx-auto mt-14">
-        <div className="text-3xl font-bold">
-          8 helpful growth hacks for eCommerce stores in 2023
+      <div className="w-[80%] md:w-[60%] mx-auto mt-14">
+        <div className="text-3xl text-gray-700 font-bold">
+          {blogPost[0].title}
         </div>
         <div className="text-lg text-gray-500 font-semibold mt-3">
-          EMAIL MARKETING
+          {blogPost[0].tag}
         </div>
         <div className="flex mt-5">
           <div className="h-10 w-10 rounded-full mr-4">
@@ -27,12 +27,15 @@ export default function Blog({ params }) {
           </div>
           <div>
             <div className="font-semibold">John Lee</div>
-            <div className="text-xs font-semibold text-gray-400">
-              <span>2 mins read</span>
+            <div className="text-xs lowercase font-semibold text-gray-400">
+              <span>{blogPost[0].time}</span>
               <span className="mx-2">·</span>
               <span>4 days ago</span>
             </div>
           </div>
+        </div>
+        <div className="mt-8">
+          <img src={blogPost[0].image} alt="postImage" />
         </div>
         <div className="mt-10 whitespace-pre-line mb-14">
           {blogPost[0].postData}

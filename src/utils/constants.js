@@ -20,7 +20,7 @@ export const benefitsCardDetails = [
   },
   {
     title: "Less spam",
-    description: `HelpfulCrowd's irresistible image-rich, brand personalized review invitations means more less spam for your customers and more reviews for you.`,
+    description: `Review Mate's irresistible image-rich, brand personalized review invitations means more less spam for your customers and more reviews for you.`,
   },
   {
     title: "More savings",
@@ -77,9 +77,11 @@ export const ourReviews = [
 export const blogData = [
   {
     id: 1,
-    title: "8 Powerful Growth Hacks to Boost Your eCommerce Store in 2023",
+    title: "7 Powerful Growth Hacks to Boost Your eCommerce Store in 2023",
     tag: "ECOMMERCE MARKETING",
     time: "2 MINS READ",
+    image:
+      "https://media.licdn.com/dms/image/D4D12AQFbnlZuouBp3A/article-cover_image-shrink_720_1280/0/1659355663427?e=2147483647&v=beta&t=X3pyK_RXGcdzQssPyKLQpqeyjyQeyZZhXrHLW7AG6-8",
     desc: `The eCommerce landscape is continually evolving, and staying ahead requires innovative strategies. To thrive in 2023, eCommerce businesses must employ effective growth hacks to drive traffic, increase conversions, and enhance customer retention.`,
     postData: `The eCommerce landscape is continually evolving, and staying ahead requires innovative strategies. To thrive in 2023, eCommerce businesses must employ effective growth hacks to drive traffic, increase conversions, and enhance customer retention. Here are eight powerful tactics to elevate your online store's growth this year:
 
@@ -104,9 +106,6 @@ export const blogData = [
     7. Subscription Services and Loyalty Programs
     Introduce subscription services or loyalty programs to incentivize repeat purchases and foster customer loyalty. Offer exclusive discounts, early access to new products, or rewards points redeemable for future purchases. Building a community around your brand encourages customer retention and boosts lifetime value.
     
-    8. User-Generated Content and Influencer Marketing
-    Leverage user-generated content by encouraging customers to share their experiences through reviews, testimonials, and social media posts. Additionally, collaborate with influencers whose audience aligns with your target market. Authentic endorsements from influencers and satisfied customers can significantly impact purchasing decisions.
-    
     In conclusion, embracing these growth hacks can propel your eCommerce store forward in 2023. Continuously adapt to evolving trends, technologies, and consumer preferences to maintain a competitive edge in the dynamic eCommerce landscape.
     
     By implementing these strategies effectively, your eCommerce business can drive growth, foster customer loyalty, and establish a strong brand presence in the ever-expanding digital marketplace.
@@ -117,6 +116,8 @@ export const blogData = [
     title: "Customer Success Story: Blissbury's Journey to eCommerce Success",
     tag: "ECOMMERCE MARKETING",
     time: "4 MINS READ",
+    image:
+      "https://marvel-b1-cdn.bc0a.com/f00000000261250/spur-reply.com/hs-fs/hubfs/iStock-1276634862.jpg?width=767&name=iStock-1276634862.jpg",
     desc: `In the bustling world of eCommerce, standing out and achieving success requires dedication, innovation, and a deep understanding of customer needs. Blissbury, a visionary online retailer specializing in artisanal skincare products, embarked on a journey that transformed their business into a remarkable success story.`,
     postData: `In the bustling world of eCommerce, standing out and achieving success requires dedication, innovation, and a deep understanding of customer needs. Blissbury, a visionary online retailer specializing in artisanal skincare products, embarked on a journey that transformed their business into a remarkable success story.
 
@@ -162,6 +163,8 @@ export const blogData = [
     title: "Top Technology Trends Shaping the Future of eCommerce in 2023",
     tag: "ECOMMERCE MARKETING",
     time: "5 MINS READ",
+    image:
+      "https://ecommerceresult.com/wp-content/uploads/2019/12/Ecommerce-trends-van-2020.jpeg",
     desc: `The eCommerce landscape is constantly evolving, driven by technological advancements that revolutionize the way businesses operate and customers shop. As we step into 2023, several cutting-edge technologies are reshaping the eCommerce industry.`,
     postData: `The eCommerce landscape is constantly evolving, driven by technological advancements that revolutionize the way businesses operate and customers shop. As we step into 2023, several cutting-edge technologies are reshaping the eCommerce industry, providing new opportunities for growth, innovation, and enhanced customer experiences.
 
@@ -195,6 +198,7 @@ export const blogData = [
     title: "Simplifying Customer Privacy Data Requests: A Seamless Approach",
     tag: "BUSINESS TODAY",
     time: "2 MINS READ",
+    image: "https://videommerce.com/wp-content/uploads/2020/08/privacy.png",
     desc: "In today's digital age, safeguarding customer data and respecting their privacy rights are paramount. As regulations like GDPR (General Data Protection Regulation) and CCPA (California Consumer Privacy Act) set stringent guidelines, businesses must efficiently manage and respond to customer privacy data requests.",
     postData: `In today's digital age, safeguarding customer data and respecting their privacy rights are paramount. As regulations like GDPR (General Data Protection Regulation) and CCPA (California Consumer Privacy Act) set stringent guidelines, businesses must efficiently manage and respond to customer privacy data requests. Handling these requests diligently not only ensures compliance but also fosters trust and loyalty among customers.
 
@@ -241,6 +245,7 @@ export const blogData = [
       "Customer Success Story: Flax & Stitch's Journey to Crafting Exceptional Experiences",
     tag: "CUSTOMER RELATIONS",
     time: "4 MINS READ",
+    image: "https://blog.club.capital/hubfs/CC%20CSS%201%20Chris%20C.png",
     desc: "In the dynamic world of retail, creating a brand that resonates with customers while maintaining quality and authenticity is no small feat. Flax & Stitch, a visionary online retailer specializing in sustainable fashion, has not only carved a niche for itself but has also set a precedent for customer-centric excellence.",
     postData: `In the dynamic world of retail, creating a brand that resonates with customers while maintaining quality and authenticity is no small feat. Flax & Stitch, a visionary online retailer specializing in sustainable fashion, has not only carved a niche for itself but has also set a precedent for customer-centric excellence.
 
@@ -289,6 +294,8 @@ export const blogData = [
       "Your Comprehensive Guide to Launching an eCommerce Store with Squarespace",
     tag: "CUSTOMER RELATIONS",
     time: "3 MINS READ",
+    image:
+      "https://blog-cdn.quarkly.io/2023/06/Creating-an-E-commerce-Store-with-Squarespace-A-Step-by-Step-Guide.png",
     desc: "In the ever-expanding world of eCommerce, launching your online store is now more accessible than ever, thanks to user-friendly platforms like Squarespace.",
     postData: `Your Comprehensive Guide to Launching an eCommerce Store with Squarespace.
 
