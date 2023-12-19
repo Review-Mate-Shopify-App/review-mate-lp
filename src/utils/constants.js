@@ -1,31 +1,44 @@
+import Sales from "../assets/sales.svg";
+import Trust from "../assets/trust.svg";
+import Traffic from "../assets/traffic.svg";
+import Reviews from "../assets/reviews.svg";
+import Saving from "../assets/savings.svg";
+import Spam from "../assets/spam.svg";
+
 export const benefitsCardDetails = [
   {
     title: "More traffic",
     description:
       "Rank higher, stand out and get more clicks on Google search and Google Shopping with Google friendly SEO content, rich snippets and star ratings.",
+    image: Traffic,
   },
   {
     title: "More reviews",
     description:
       "Get 10-25% more reviews with our frictionless, engaging collection process  generating a ton of free organic content to use in marketing campaigns.",
+    image: Reviews,
   },
   {
     title: "More trust",
     description: `76% of customers trust online reviews as much as personal recommendations, boosting your brand's trustworthiness.`,
+    image: Trust,
   },
   {
     title: "More sales",
     description:
       "97% of shoppers say reviews influence their buying decisions which significantly boosts sales and conversions.",
+    image: Sales,
   },
   {
     title: "Less spam",
     description: `Review Mate's irresistible image-rich, brand personalized review invitations means more less spam for your customers and more reviews for you.`,
+    image: Spam,
   },
   {
     title: "More savings",
     description:
       "Maximize your digital ad budget by getting found in FREE organic search and building immediately trust and credibility for those visitors arriving from ad clicks.",
+    image: Saving,
   },
 ];
 

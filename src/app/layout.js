@@ -9,7 +9,7 @@ config.autoAddCss = false;
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Helpful Crowd",
+  title: "Review Mate",
   description: "Where every review tells a story",
 };
 
